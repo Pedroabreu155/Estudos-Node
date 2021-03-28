@@ -6,7 +6,7 @@ let args = process.argv.slice(2)
 
 let calc = require("./modules/calc")
 
-//exevutando a tarefa
+//executando a tarefa
 let a = Number(args[1])
 let b = Number(args[2])
 
