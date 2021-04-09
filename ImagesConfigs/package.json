@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Pedroabreu155/Estudos-Node/issues"
   },
-  "homepage": "https://github.com/Pedroabreu155/Estudos-Node#readme"
+  "homepage": "https://github.com/Pedroabreu155/Estudos-Node#readme",
+  "dependencies": {
+    "sharp": "^0.28.1"
+  }
 }
