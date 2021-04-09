@@ -1,0 +1,24 @@
+{
+  "name": "image-compressor",
+  "version": "1.0.0",
+  "description": "This package can compress and resize images",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedroabreu155/Estudos-Node.git"
+  },
+  "keywords": [
+    "Image",
+    "Compressor",
+    "Editor"
+  ],
+  "author": "Pedro Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pedroabreu155/Estudos-Node/issues"
+  },
+  "homepage": "https://github.com/Pedroabreu155/Estudos-Node#readme"
+}
