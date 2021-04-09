@@ -1,4 +1,4 @@
-const sharp = require('sharp')
+const sharp = require('./node_modules/sharp')
 
 
 let path = process.argv[2]
