@@ -6,10 +6,10 @@ let width = Number(process.argv[3]) // passing to number cause command line rece
 
 console.log(path, width)
 
-function resize(path, width){
+function resize(inputPath,outputPath, width){
 
 
-    sharp(path).resize({width}).toFile('./temp/resized_img.jpg', (err) => {
+    sharp(inputPath).resize({width}).toFile(outputPath, (err) => {
         if (err){
             console.log(err)
         } else{
@@ -20,4 +20,8 @@ function resize(path, width){
 
 }
 
-resize(path, width)
+function compress(pathInput, outputPath){
+
+}
+
+resize(path, './temp/resized_img.jpg', width)
