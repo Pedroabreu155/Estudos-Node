@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Pedroabreu155/Estudos-Node#readme",
   "dependencies": {
     "sharp": "^0.28.1"
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.9"
   }
 }
