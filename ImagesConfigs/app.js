@@ -1,5 +1,6 @@
 const sharp = require("./node_modules/sharp");
 const compress_images = require("compress-images");
+const fs = require("fs")
 
 let path = process.argv[2];
 let width = Number(process.argv[3]); // passing to number cause command line receives always strings
@@ -39,6 +40,14 @@ function compress(pathInput, outputPath) {
       console.log(completed);
       console.log(statistic);
       console.log("-------------");
+
+      fs.unlink(pathInput, (err) => {
+          if(err){
+              console.log(err)
+          } else{
+              console.log(pathInput, " apagado e imagem compressa com sucesso!")
+          }
+      })
     }
   );
 }
